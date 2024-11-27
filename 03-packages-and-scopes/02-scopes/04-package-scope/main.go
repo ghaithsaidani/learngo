@@ -22,8 +22,8 @@ func main() {
 //           And analyze the error message
 
 // func bye() {
-// 	fmt.Println("Bye!")
-// }
+//  	fmt.Println("Bye!")
+//  }
 
 // ***** EXPLANATION *****
 //
