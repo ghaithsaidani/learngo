@@ -1,4 +1,5 @@
-module github.com/inancgumus/learngo
+module github.com/ghaithsaidani/learngo
+//module github.com/ghaithsaidani/learngo
 
 go 1.13
 

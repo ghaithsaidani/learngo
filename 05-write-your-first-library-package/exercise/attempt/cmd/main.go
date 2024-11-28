@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/inancgumus/learngo/05-write-your-first-library-package/exercise/solution/golang"
+	"github.com/ghaithsaidani/learngo/05-write-your-first-library-package/exercise/attempt"
 )
 
 
 func main() {
-	fmt.Println(golang.Version())
+	fmt.Println(attempt.Version())
 }
