@@ -3,6 +3,6 @@ package attempt
 import "runtime"
 
 
-func version() string{
+func version() string {
 	return runtime.Version()
 }

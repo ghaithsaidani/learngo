@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	attempt "https://github.com/ghaithsaidani/learngo/tree/master/05-write-your-first-library-package/exercise"
+	"github.com/ghaithsaidani/learngo/05-write-your-first-library-package/exercise/attempt"
 )
 
 
