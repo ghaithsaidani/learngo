@@ -11,8 +11,8 @@ package main
 import "fmt"
 
 func main() {
-	var nFiles int
-	var counter int
+	var nFiles int = 10
+	counter := 15
 	var nCPU int
 
 	fmt.Println(

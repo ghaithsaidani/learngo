@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Declare with bits
 //
@@ -37,8 +39,23 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
-
+	var i int
+	var i8 int8
+	var i16 int16
+	var i32 int32
+	var i64 int64
+	var f32 float32
+	var f64 float64
+	var c64 complex64
+	var c128 complex128
+	var isDone bool
+	var name string
+	var r rune
+	// same as uint8 it varies from 0 to 255 (1 octet = 8 bits max (1111 1111) )
+	var b byte = 65
+	_, _, _, _, _, _, _, _, _, _, _ = i, i8, i16, i32, i64, f32, f64, c64, c128, isDone, name
+	fmt.Println(r)
+	//fmt.Println(b)
+	fmt.Println(string(b))
 	// CONTINUE FROM HERE....
 }
