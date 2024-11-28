@@ -1,11 +1,11 @@
-package cmd
+package main
 
 import (
 	"fmt"
-	"github.com/ghaithsaidani/learngo/05-write-your-first-library-package/exercise/attempt"
+	"github.com/inancgumus/learngo/05-write-your-first-library-package/exercise/solution/golang"
 )
 
 
-func main(){
-	fmt.Println(attempt.version())
+func main() {
+	fmt.Println(golang.Version())
 }
