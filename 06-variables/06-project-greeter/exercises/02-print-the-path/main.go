@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Print the Path
 //
@@ -23,4 +28,5 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Printf("path: %s\n", os.Args[0])
 }

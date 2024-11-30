@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Greet More People
 //
@@ -29,7 +34,16 @@ package main
 
 func main() {
 	// TYPE YOUR CODE HERE
+	var (
+		argsLength = len(os.Args) - 1
+		name1 = os.Args[1]
+		name2 = os.Args[2]
+		name3 = os.Args[3]
+	)
+	
+	
 
+	fmt.Printf("There are %d people!\nHello great %s!\nHello great %s!\nHello great %s!\nNice to meet you all.\n", argsLength, name1, name2, name3)
 	// BONUS #1:
 	// Observe the error if you pass less then 3 arguments.
 	// Search on the web how to solve that.
