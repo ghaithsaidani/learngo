@@ -27,6 +27,9 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
-	fmt.Printf("There are %d hours in %d weeks.\n",
-		24*7*5, 5)
+	const (
+		hoursPerDay=24
+		daysPerWeek = 7
+	)
+	fmt.Printf("There are %d hours in %d weeks.\n",hoursPerDay*(daysPerWeek * 5), 5)
 }
