@@ -14,7 +14,6 @@ import (
 
 func main() {
 	var on bool
-
 	on = !on
 	fmt.Println(on)
 

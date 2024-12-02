@@ -8,6 +8,12 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+	"strconv"
+)
+
 // ---------------------------------------------------------
 // STORY
 //
@@ -53,4 +59,17 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	args := os.Args
+	if len(args) == 1 {
+		fmt.Println("Requires age")
+		return
+	} else if age, err := strconv.ParseUint(args[1],10, 8); err != nil {
+		fmt.Printf("Wrong age: %q\n", args[1])
+	} else if age > 17 {
+		fmt.Println("R-Rated")
+	} else if age < 13 {
+		fmt.Println("PG-Rated")
+	} else {
+		fmt.Println("PG-13")
+	}
 }
